@@ -3,8 +3,8 @@ package javaProgram;
 public class AnagramProgram {
 	
 	public static void main(String[] args) {
-		String string1 = "Debit Card";
-		String string2 = "Bad credit";
+		String string1 = "java program";
+		String string2 = "program java";
 		String newStr1 = sorting(string1.trim().replaceAll("//s", "").toLowerCase().toCharArray());
 		String newStr2 = sorting(string2.trim().replaceAll("//s", "").toLowerCase().toCharArray());
 		System.out.println(newStr1);
